@@ -220,7 +220,7 @@ submit.addEventListener('click', ()=>{
     setRadio()
     handleCountry()
     if(validFirstName && validLastName && validEmail && validMobile && validGender && validCountry){
-        alert("Your details have been saved successfully")
+        alert("Your details have been saved successfully!")
         document.getElementById('registration').reset();
 
 
